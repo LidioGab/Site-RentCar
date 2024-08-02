@@ -1,0 +1,22 @@
+.pag-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-height: 60px;
+    height: 100%;
+
+    padding: 0px 20px;
+
+    box-shadow: 0px 0px 17px 0px #000000d3;
+    h1{
+        font-size: 15px;
+        color:#A79F9F;
+    }
+
+    img{
+        width: 30px;
+    }
+
+}
