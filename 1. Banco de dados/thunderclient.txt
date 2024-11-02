@@ -1,0 +1,11 @@
+url da maquina local
+http://localhost5000/
+
+parametro de cadastro de cliente
+{
+  "nome": "",
+  "cpf": "",
+  "telefone": "",
+  "email": "",
+  "cnh":""
+}
