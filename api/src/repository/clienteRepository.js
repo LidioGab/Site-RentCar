@@ -18,3 +18,16 @@ export async function adicionarCliente(cadastro){
         throw new Error('Erro ao adicionar cliente: ' + error.message);
       }
 }
+
+
+export async function verificarEmail(email){
+    const comando = `
+      select * from tb_cliente where ds_email like "% ? %"
+    `
+
+    const [result] = await conexao.query(comando, [email]);
+
+    console.log(result);
+
+    return result.insertId;
+}
